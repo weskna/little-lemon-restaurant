@@ -4,7 +4,7 @@ const RatingCard = ({ image, name, description, rating }) => {
 	return (
 		<article className="rating-card">
 			<div>{rating}/5 stars</div>
-			<div class="rating-card-content">
+			<div className="rating-card-content">
 				<img
 					src={image}
 					alt={name}
