@@ -18,6 +18,7 @@ const CallToAction = () => {
 					<a
 						href="/reservations"
 						role="button"
+						aria-label="On Click"
 					>
 						Reserve a Table
 					</a>

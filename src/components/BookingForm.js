@@ -78,6 +78,7 @@ const BookingForm = ({ availableTimes, updateTimes, submitForm }) => {
 					type="submit"
 					value="Make Your reservation"
 					style={{ marginTop: "48px" }}
+					disabled={!date || !time || !guests || !occasion}
 				/>
 			</form>
 		</>
