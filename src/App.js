@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import HomePage from "./HomePage";
-import ReservationPage from "./ReservationPage";
+import BookingPage from "./BookingPage";
 import { Route, Routes } from "react-router";
 import AboutPage from "./AboutPage";
 import MenuPage from "./MenuPage";
-import OrderOnlinePage from "./components/OrderOnlinePage";
-import LoginPage from "./components/LoginPage";
+import OrderOnlinePage from "./OrderOnlinePage";
+import LoginPage from "./LoginPage";
 
 function App() {
 	return (
@@ -24,8 +24,8 @@ function App() {
 				element={<MenuPage />}
 			/>
 			<Route
-				path="/reservations"
-				element={<ReservationPage />}
+				path="/bookings"
+				element={<BookingPage />}
 			></Route>
 			<Route
 				path="/order-online"

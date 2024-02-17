@@ -36,6 +36,7 @@ a:hover {
 	transition: color 250ms ease-in-out;
 }
 
+input[type="submit"],
 a[role="button"] {
 	background-color: var(--primary);
 	border-radius: 16px;
@@ -43,6 +44,8 @@ a[role="button"] {
 	font-weight: bold;
 	display: inline-block;
 	transition: background 250ms ease-in-out, color 250ms ease-in-out;
+	cursor: pointer;
+	border: none;
 }
 
 a[role="button"]:hover {
